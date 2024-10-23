@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 500px;
+            width: 500px;
+            border: 15px ridge brown;
+            margin: auto;
+            padding: 20px;
+        }
+
+       
+        .wt,.blk{
+            height: 50px;
+            width: 50px;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+           
+        }
+        .wt{
+            background-color: rgb(239, 174, 22);
+        }
+        .blk{
+            background-color: black;
+        }
+        i{
+            font-size: 30px;
+        }
+        .x{
+            color: rgb(52, 83, 4);
+        }
+        .y{
+            color: rgb(132, 0, 209);
+        }
+    </style>
+</head>
+<body>
+    
+        <table class="main">
+            <!-- <tr class="r1">
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+                <td>g</td>
+                <td>h</td>
+            </tr> -->
+            <tr class="r1">
+                <td class="wt"><i class="fa-solid fa-chess-rook x" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-knight x" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-bishop x" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-queen x"></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-king x" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-bishop x" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-knight x" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-rook x" ></i></td>
+            </tr>
+            <tr class="r2">
+                <td class="blk"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn x" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn x" ></i></td>
+            </tr>
+            <tr class="r3">
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+            </tr>
+            <tr class="r4">
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+            </tr>
+            <tr class="r5">
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+            </tr>
+            <tr class="r6">
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+                <td class="blk"></td>
+                <td class="wt"></td>
+            </tr>
+            <tr class="r7">
+                <td class="wt"><i class="fa-regular fa-chess-pawn y" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn y"  ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn y" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn y" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn y" ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn y" ></i></td>
+                <td class="wt"><i class="fa-regular fa-chess-pawn y " ></i></td>
+                <td class="blk"><i class="fa-regular fa-chess-pawn y" ></i></td>
+            </tr>
+            <tr class="r8">
+                <td class="blk"><i class="fa-solid fa-chess-rook y" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-knight y" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-bishop y" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-king y" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-bishop y" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-bishop y" ></i></td>
+                <td class="blk"><i class="fa-solid fa-chess-knight y" ></i></td>
+                <td class="wt"><i class="fa-solid fa-chess-rook y" ></i></td>
+            </tr>
+
+        </table>
+    
+</body>
+</html>
